@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masala</title>
+</head>
+
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Websit</th>
+                <th>
+                    <select name="names" id="name">
+                        <option value="all">all</option>
+                    </select>
+                </th>
+            </tr>
+        </thead>
+        <tbody id="body"></tbody>
+    </table>
+
+    <template id="temp">
+        <tr id="row">
+            <td class="user-id"></td>
+            <td class="user-name"></td>
+            <td>
+                <a class="user-email" href=""></a>
+            </td>
+            <td>
+                <a class="user-web" href=""></a>
+            </td>
+        </tr>
+    </template>
+</body>
+
+<script src="main.js"></script>
+
+</html>
